@@ -25,7 +25,7 @@ SECRET_KEY = '-$qm_tyz+xfkp^x-!90v0l7hy8(!yphb&$trps9a@fo-@6uf_0'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['https://thepursuit.herokuapp.com']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -122,7 +122,7 @@ USE_TZ = False
 
 STATIC_URL = '/static/'
 STATICFILES_DIRS = [os.path.join(BASE_DIR,'static')]
-STATIC_ROOT = os.path.join(BASE_DIR, 'static')
+#STATIC_ROOT = os.path.join(BASE_DIR, 'static')
 
 MEDIA_ROOT = os.path.join(BASE_DIR,'media')
 MEDIA_URL = '/media/'
